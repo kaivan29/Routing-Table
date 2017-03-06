@@ -14,7 +14,7 @@ from unittest import main, TestCase
 from socket import *
 
 serverName = 'localhost'
-serverPort = 2000
+serverPort = 9000
 
 def getResponse (request) :
     clientSocket = socket(AF_INET, SOCK_STREAM)
